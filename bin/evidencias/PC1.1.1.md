@@ -7,3 +7,5 @@ Método Burbuja
 Resultado 
 
 ![alt text](assets/2.png)
+
+Errores del algoritmo corregido 11:50 AM.

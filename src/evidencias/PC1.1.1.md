@@ -2,7 +2,7 @@
 # PC 1.1.1
 
 Método Burbuja
-![alt text](image.png)
+![alt text](assets/1.png)
 
 Resultado 
 

@@ -7,7 +7,6 @@ public class Bubble {
             for(int j = 1; j < arreglo.length; j++){
             // COMPARACION if
             if(arreglo[j-1] > arreglo[i]){
-                
                 int aux = arreglo[j - 1];
                 arreglo[j - 1 ] = arreglo[j];
                 arreglo[j] = aux;
@@ -16,7 +15,6 @@ public class Bubble {
 
         }
     }
-    
     return null;
     }
 }

@@ -3,7 +3,8 @@ public class App {
         
         int [] original = {5, 6, 4, 1, 2, 3};
         int [] b = original.clone();
-        int [] c = original.clone();
+        int [] c = original;
+        int [] e = original.clone();
         
 
 
@@ -13,23 +14,22 @@ public class App {
         Bubble buubble = new Bubble();
         Selection selection = new Selection();
 
-        System.out.println(buubble);
-
-        System.out.println(selection);
+        System.out.println("\nBubble sort\n");
 
         //EJECUTAR CODIGO DEL ARCHIVO 
+        System.out.println("Original:");
         printArreglo(b);
         buubble.sort(b);
+        System.out.println("Ordenado:");
         printArreglo(b);
     
-        System.out.println(" ----SELECTION SORT-----");
-        
-        System.out.println("Arreglo original:");
-        printArreglo(c);
-        selection.sort(c);
-        System.out.println("Arreglo ordenado:");
-        printArreglo(c);
-        
+        System.out.print("\n ----------------------------------------------------------------------------------------------------------------------------------------------------\n");
+        System.out.println("\nSelection sort\n");
+        System.out.println("Original:");
+        printArreglo(e);
+        selection.sort(e);
+        System.out.println("Ordenado asc:");
+        printArreglo(e);
     }
 
     public static void printArreglo(int [] arr){

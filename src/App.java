@@ -31,7 +31,6 @@ public class App {
         System.out.println("Ordenado asc:");
         printArreglo(e);
     }
-
     public static void printArreglo(int [] arr){
         for(int i = 0; i < arr.length; i++){
             System.out.print(arr[i] + " - " );

@@ -1,17 +1,20 @@
 public class Insertion {
     
-    public static void insertion(int[] a) {
+       public void sort(int[] arreglo) {
 
-        for(int i = 1; i < a.length; i++){
-            int Key = a[i];
+        for(int i = 1; i < arreglo.length; i++){
+            int aux = arreglo[i];
             int j = i - 1 ;
-            while ( j>= 0 && a[j] > Key) {
-                a[j+1] = a[j];
+            while ( j >= 0 && arreglo[j] < aux) {
+                arreglo[j+1] = arreglo[j];
                 j--;
                 
             }
-            a [j+1] = Key;
+            arreglo [j+1] = aux;}
+            System.out.println("El aux es: " + arreglo[j+1]);
         }
-        
     }
-}
+       
+
+
+

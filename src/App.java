@@ -5,6 +5,8 @@ public class App {
         int [] b = original.clone();
         int [] c = original;
         int [] e = original.clone();
+        int [] d = original.clone();
+
         
 
 
@@ -13,6 +15,7 @@ public class App {
         // INSTANCIA la clase BUBBLE
         Bubble buubble = new Bubble();
         Selection selection = new Selection();
+        Insertion insertion = new Insertion();
 
         System.out.println("\nBubble sort\n");
 
@@ -30,6 +33,15 @@ public class App {
         selection.sort(e);
         System.out.println("Ordenado asc:");
         printArreglo(e);
+
+        System.out.print("\n ----------------------------------------------------------------------------------------------------------------------------------------------------\n");
+        System.out.println("\n-------Selection Insertion----------\n");
+        System.out.println("Original:");
+        printArreglo(d);
+        insertion.sort(d);
+        System.out.println("Ordenado Des:");
+        printArreglo(d);
+    
     }
     public static void printArreglo(int [] arr){
         for(int i = 0; i < arr.length; i++){

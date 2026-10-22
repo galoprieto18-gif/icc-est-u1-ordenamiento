@@ -8,3 +8,4 @@ Este algoritmo ordena de forma descendente empezando desde la posición 1. Va co
 Resultado en consola: 
 
 ![alt text](assets/8.png)
+

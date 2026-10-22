@@ -7,7 +7,7 @@ public class App {
         int [] e = original.clone();
         
         
-
+        
 
         // USAR EL MÉTODO DEL ARCHIVO(clase) BUBBLE
         //INSTANCIAR el archivo BUBBLE

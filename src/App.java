@@ -36,7 +36,7 @@ public class App {
         };
         Comparator<Estudiante> compNota = Comparator.comparingDouble(e -> e.getNota());
 
-        Arrays.sort(estudiantes, compNota);
+        Arrays.sort(estudiantes, compNota.reversed());
 
        for(int i = 0; i < estudiantes.length; i++){
         System.out.println(estudiantes[i]);

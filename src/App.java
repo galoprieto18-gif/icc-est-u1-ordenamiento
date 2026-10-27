@@ -10,7 +10,10 @@ public class App {
         //runEjemplosPrimitivos();
         runEjemplosObjetos();
         runComparators();
+     
         
+
+
     }
         
     private static void runComparators() {

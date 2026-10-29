@@ -9,15 +9,16 @@ import models.Estudiante;
 public class App {
     public static void main(String[] args) throws Exception {
         
-        //runEjemplosPrimitivos();
-        runEjemplosObjetos();
-        runComparators();
-        runComparatorsObj();
-        runComparatorsObj2();
+        // //runEjemplosPrimitivos();
+        // runEjemplosObjetos();
+        // runComparators();
+        // runComparatorsObj();
+        // runComparatorsObj2();
         
-     
-        
-
+    //  Comparators comparators = new Comparators(); - Ejemplo 1
+    // Comparators comparators = new Comparators(); 
+    Comparators comparators = new Comparators();
+    
 
     }
         
@@ -39,7 +40,7 @@ public class App {
         Arrays.sort(estudiantes, compNota.reversed());
 
        for(int i = 0; i < estudiantes.length; i++){
-        System.out.println(estudiantes[i]);
+        System.out.println(estudiantes[i]); 
        }
     }
 
